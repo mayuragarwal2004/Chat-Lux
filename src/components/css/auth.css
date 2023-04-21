@@ -1,0 +1,77 @@
+.auth-form {
+  max-width: 400px;
+  width: 80%;
+  /* margin: auto; */
+}
+
+.auth-heading-main {
+  display: flex;
+  justify-content: center;
+}
+
+.auth-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-body-left {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  flex-direction: column;
+}
+.auth-body-right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+.auth-body > div {
+  margin: 0 10px;
+}
+
+.auth-body-middle {
+  border-left: 3px solid green;
+  height: 100px;
+}
+
+#otpbutton {
+  background-color: #4caf50;
+  color: white;
+  outline: 0;
+  border: 0;
+  padding: 10px 20px ;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+.otpinput{
+    padding: 7px 7px;
+    margin: 4px 0;
+    font-size: medium;
+    border-radius: 10px;
+}
+.otpinput:active{
+    border: 2px solid lightblue;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+.submit-btn{
+  background-color: #4caf50;
+  font-size: large;
+  padding: 10px;
+  color: white;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.profile-photo-input{
+  margin: 10px 0;
+}
