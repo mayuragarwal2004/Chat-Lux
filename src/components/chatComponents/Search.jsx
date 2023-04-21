@@ -89,11 +89,7 @@ const Search = () => {
   return (
     <>
       <div
-        className="chathome-left-searchbox-div"
-        onBlur={() =>
-          document.getElementById("dropdown-content").classList.remove("show")
-        }
-      >
+        className="chathome-left-searchbox-div">
         <input
           type="text"
           className={
@@ -102,7 +98,7 @@ const Search = () => {
           }
           placeholder="Search"
           onFocus={() =>
-            document.getElementById("dropdown-content").classList.add("show")
+            document.getElementById("dropdown-content").classList.toggle("show")
           }
           onKeyDown={handleKey}
           onChange={(e) => setUsername(e.target.value)}
