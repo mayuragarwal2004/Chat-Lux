@@ -1,0 +1,91 @@
+.cssimage-main {
+  margin: 40px;
+  position: relative;
+}
+
+.parallelogram-1 {
+  width: 107px;
+  height: 93px;
+  transform: skew(55deg);
+  background-color: #3d33f8;
+  rotate: 200deg;
+  position: absolute;
+}
+
+svg{
+  position: absolute;
+}
+
+polygon{
+  position: absolute;
+}
+
+.triangle-1 {
+  width: 0;
+  height: 0;
+  border-left: 105px solid transparent;
+  border-right: 69px solid transparent;
+  border-bottom: 84px solid #65f1fe;
+  position: absolute;
+  rotate: 118deg;
+  top: 32px;
+  left: 140px;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: #FD643B;
+    position: absolute;
+    top: 131px;
+    left: 49px;
+}
+
+
+.triangle-2 {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 100px solid #65f1fe;
+    position: absolute;
+    rotate: 90deg;
+    top: 285px;
+    left: 51px;
+}
+
+.triangle-3 {
+  width: 0;
+  height: 0;
+  border-left: 110px solid transparent;
+  border-right: 110px solid transparent;
+  border-bottom: 110px solid #FF1A34;
+  position: absolute;
+  rotate: 90deg;
+  top: 285px;
+  left: 94px;
+}
+
+.triangle-4 {
+    width: 0;
+    height: 0;
+    border-left: 160px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 160px solid #E166FD;
+    position: absolute;
+    rotate: 90deg;
+    top: 340px;
+    left: 99px;
+}
+
+.triangle-5 {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 60px solid #FAE52A;
+  position: absolute;
+  rotate: 90deg;
+  top: 411px;
+  left: 229px;
+}
